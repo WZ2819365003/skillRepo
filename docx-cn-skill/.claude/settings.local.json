@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find C:/Users/zhuow/cowork_workplace/skill_repo/ui-ux-pro-max-skill -maxdepth 2 -type f \\\\\\(-name *.json -o -name *.md \\\\\\))",
+      "Bash(node test/test1-default-full.js)",
+      "Bash(node test/test2-thesis.js)",
+      "Bash(node test/test3-paper-report.js)",
+      "Bash(ls -lh \"C:/Users/zhuow/cowork_workplace/skill_repo/docx-cn-skill/test/\"*.docx)",
+      "Bash(node test/_inspect.js test/test1-default-full.docx)",
+      "Bash(node test/_inspect2.js test/test1-default-full.docx test/test2-thesis.docx)",
+      "Bash(node test/_inspect2.js test/test3a-paper.docx test/test3b-report.docx)",
+      "Bash(node test/_inspect3.js test/test1-default-full.docx)",
+      "Bash(ls -la \"C:/Users/zhuow/cowork_workplace/skill_repo/docx-cn-skill/test/\"*.docx)",
+      "Bash(node test/_diff.js test/test1-default-full.docx)",
+      "Bash(node test/_inspect4.js test/test1-default-full.docx)",
+      "Bash(node test/_inspect5.js test/test1-default-full.docx)",
+      "Bash(node test/_inspect4.js test/test3b-report.docx)",
+      "Bash(node test/_validate.js)",
+      "Bash(ls \"C:/Users/zhuow/cowork_workplace/skill_repo/docx-cn-skill/test/\"*.js)",
+      "Bash(ls \"C:/Users/zhuow/cowork_workplace/skill_repo/docx-cn-skill/\"*.js)",
+      "Bash(node test/test1-default.js)",
+      "Bash(node test/test-math-detailed.js)",
+      "Bash(node test/test-math-same-structure.js)",
+      "Bash(node test/test-math-table.js)",
+      "Read(//c/Users/zhuow/cowork_workplace/skill_repo/docx-cn-skill/$HOME/.claude/**)",
+      "Bash(cat C:/Users/zhuow/.claude/plugins/.install-manifests/*)",
+      "Bash(find C:/Users/zhuow/cowork_workplace/skill_repo/superpowers/ -name plugin.json -o -name *.json -maxdepth 2)",
+      "Bash(node output-all-features.js)"
+    ]
+  }
+}
