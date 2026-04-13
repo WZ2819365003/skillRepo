@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node out/*.js)",
+      "Bash(python3 -c :*)",
+      "Bash(node -e :*)",
+      "WebSearch"
+    ]
+  }
+}

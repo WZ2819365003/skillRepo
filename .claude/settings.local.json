@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node out/generate_keyan_report.js)",
+      "Bash(python3 -c \":*)",
+      "Bash(node -e \":*)",
+      "WebSearch",
+      "Bash(node md2docx_keyan.js)"
+    ]
+  }
+}
